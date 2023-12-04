@@ -56,6 +56,7 @@ const animalContainer = document.getElementById("animal-container");
 
 let index = 0;
 let currentAnimal = animals[index];
+
 function randomAnimal() {
     index = Math.floor(Math.random() * animals.length);
     currentAnimal = animals[index];
@@ -63,9 +64,6 @@ function randomAnimal() {
 
 
 function createAnimalCard() {
-    if (animalContainer.innerHTML) {
-        animalContainer.innerHTML = "";
-    }
     randomAnimal();
     animalContainer.innerHTML = `
         <div class="flex items-center justify-center bg-[#526D82] w-fit h-fit rounded-xl flex-col text-[#DDE6ED] p-4" id="card">
