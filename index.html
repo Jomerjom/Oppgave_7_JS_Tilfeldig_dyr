@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-<body>
-    <main>
-        <button id="animalGenerator">Generate</button>
+<body class="flex flex-col items-center justify-center bg-[#27374D] w-screen h-screen space-y-5" id="body>
+    <main id="main">
+        <div id="animal-container"></div>
+        <button class="bg-[#526D82] px-7 py-2 rounded-lg text-[#DDE6ED] font-semibold hover:bg-[#475e70]" id="animalGenerator" onclick="createAnimalCard()">Generate</button>
     </main>
 </body>
 </html>
