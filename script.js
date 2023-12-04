@@ -1,7 +1,7 @@
 const animals = [
         {
             name: "Cat",
-            imgPath: "./Img/Cat.jpg",
+            imgPath: "Img/Cat.jpg",
             description: "Cats are small, carnivorous mammals that are often kept as pets. They are known for their agility, playfulness, and independent nature."
         },
         {
