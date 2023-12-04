@@ -41,7 +41,7 @@ const animals = [
         },
         {
             name: "Polar Bear",
-            imgPath: "./Img/Polar_bear.jpg",
+            imgPath: "./Img/Polar_Bear.jpg",
             description: "Polar bears are large carnivorous mammals native to the Arctic region. They are well-adapted to life in the icy environment and are excellent swimmers."
         },
         {
