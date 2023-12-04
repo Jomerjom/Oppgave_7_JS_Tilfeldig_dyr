@@ -36,7 +36,7 @@ const animals = [
         },
         {
             name: "Pelican",
-            imgPath: "./img/Pelican.jpg",
+            imgPath: "./Img/Pelican.jpg",
             description: "Pelicans are large water birds with long bills and a distinctive throat pouch. They are known for their impressive fishing skills and soaring flight."
         },
         {
